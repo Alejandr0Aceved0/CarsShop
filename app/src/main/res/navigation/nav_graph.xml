@@ -9,17 +9,12 @@
         android:id="@+id/loginActivity"
         android:name="com.ingacev.carsshop.login.LoginFragment"
         android:label="activity_login_fragment"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginActivity_to_transitionFragment"
             app:destination="@id/transitionFragment" />
     </fragment>
 
-    <activity
-        android:id="@+id/slideshowFragment"
-        android:name="com.ingacev.carsshop.ui.slideshow.SlideshowFragment"
-        android:label="fragment_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.ingacev.carsshop.ui.home.HomeFragment"
@@ -29,5 +24,21 @@
         android:id="@+id/transitionFragment"
         android:name="com.ingacev.carsshop.TransitionFragment"
         android:label="fragment_transition"
-        tools:layout="@layout/fragment_transition" />
+        tools:layout="@layout/fragment_navigation_main_menu">
+        <action
+            android:id="@+id/action_transitionFragment_to_myCarsFragment"
+            app:destination="@id/myCarsFragment" />
+        <action
+            android:id="@+id/action_transitionFragment_to_buyCarsFragment"
+            app:destination="@id/buyCarsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCarsFragment"
+        android:name="com.ingacev.carsshop.ui.my_cars.MyCarsFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_my_cars" />
+    <fragment
+        android:id="@+id/buyCarsFragment"
+        android:name="com.ingacev.carsshop.ui.buy_cars.BuyCarsFragment"
+        android:label="BuyCarsFragment" />
 </navigation>

@@ -5,13 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import com.google.android.material.internal.ViewUtils.hideKeyboard
 import com.ingacev.carsshop.R
 import com.ingacev.carsshop.databinding.FragmentLoginBinding
-import com.ingacev.carsshop.login.ViewModel.LoginViewModel
 
 
 // TODO: Rename parameter arguments, choose names that match
