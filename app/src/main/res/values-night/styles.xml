@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Comparendera.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ThemeOverlay.Comparendera.Modal.TextButton" parent="">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAppearance">@color/textPrimaryColorLight</item>
+    </style>
+
+    <style name="ButtonLoginStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">50dp</item>
+        <item name="materialThemeOverlay">@style/ButtonLogin</item>
+    </style>
+
+    <style name="ButtonLogin" parent="">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <style name="ButtonLogin.White">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="ButtonLogin.Black">
+        <item name="colorPrimary">@color/black_inactive</item>
+    </style>
+
+    <style name="ButtonLogin.Green">
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+    <style name="ButtonLogin.Blue">
+        <item name="backgroundTint">@color/blue_light</item>
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+    <style name="ButtonLogin.Red">
+        <item name="backgroundTint">@color/red_light</item>
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App name title  -->
+    <string name="app_name_title" tools:ignore="ExtraTranslation">CarShop App</string>
+
+
+    <!-- SignIn View -->
+    <string name="sign_in_user_hint" tools:ignore="ExtraTranslation">Usuario</string>
+    <string name="sign_in_action" tools:ignore="ExtraTranslation">Iniciar sesión</string>
+    <string name="sign_in_password_hint" tools:ignore="ExtraTranslation">Contraseña</string>
+
+    <!-- SignIn Error messages -->
+    <string name="sign_in_form_error_title" tools:ignore="ExtraTranslation">Error al iniciar sesión</string>
+    <string name="sign_in_form_user_password_input_error_message" tools:ignore="ExtraTranslation">Revisa que el usuario y contraseña ingresados sean válidos</string>
+    <string name="sign_in_form_user_input_error_message" tools:ignore="ExtraTranslation">Revisa que el usuario ingresado sea válido</string>
+    <string name="sign_in_form_password_input_error_message" tools:ignore="ExtraTranslation">Revisa que la contraseña ingresada sea válida</string>
+
+</resources>

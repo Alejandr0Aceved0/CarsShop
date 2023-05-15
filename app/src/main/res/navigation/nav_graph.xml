@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <fragment
+        android:id="@+id/loginActivity"
+        android:name="com.ingacev.carsshop.login.LoginFragment"
+        android:label="activity_login_fragment"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginActivity_to_transitionFragment"
+            app:destination="@id/transitionFragment" />
+    </fragment>
+
+    <activity
+        android:id="@+id/slideshowFragment"
+        android:name="com.ingacev.carsshop.ui.slideshow.SlideshowFragment"
+        android:label="fragment_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ingacev.carsshop.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/transitionFragment"
+        android:name="com.ingacev.carsshop.TransitionFragment"
+        android:label="fragment_transition"
+        tools:layout="@layout/fragment_transition" />
+</navigation>
